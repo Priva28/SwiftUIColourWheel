@@ -9,4 +9,6 @@ There are 2 different colour wheels to choose from.
 
 They both interact the same and output in [Red, Green, Blue] or [Hue, Saturation].
 
+![previewjpg](https://raw.githubusercontent.com/Priva28/SwiftUIColourWheel/master/preview.jpg)
+
 ![preview](https://raw.githubusercontent.com/Priva28/SwiftUIColourWheel/master/preview.gif)
