@@ -19,7 +19,7 @@ struct CIHueSaturationValueGradientView: UIViewRepresentable {
             "inputColorSpace": CGColorSpaceCreateDeviceRGB(),
             "inputDither": 0,
             "inputRadius": radius * 0.4,
-            "inputSoftness": 0.8,
+            "inputSoftness": 0,
             "inputValue": 1
         ])!
         
@@ -31,4 +31,11 @@ struct CIHueSaturationValueGradientView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIImageView, context: Context) { }
+}
+
+struct CIHueSaturationValueGradientView_Previews: PreviewProvider {
+    static var previews: some View {
+        CIHueSaturationValueGradientView(radius: 350)
+            .frame(width: 350, height: 350)
+    }
 }

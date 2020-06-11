@@ -1,15 +1,15 @@
 //
-//  ColorWheel.swift
+//  NewColourWheel.swift
 //  Colour Wheel
 //
-//  Created by Christian P on 9/6/20.
+//  Created by Christian P on 11/6/20.
 //  Copyright © 2020 Christian P. All rights reserved.
 //
 
 import SwiftUI
 
 /// The actual colour wheel view.
-struct ColourWheel: View {
+struct NewColourWheel: View {
     
     /// Draws at a specified radius.
     var radius: CGFloat
@@ -24,7 +24,7 @@ struct ColourWheel: View {
             ZStack {
                 
                 /// The colour wheel. See the definition.
-                CIHueSaturationValueGradientView(radius: self.radius)
+                AngularGradientHueView(radius: self.radius)
                     /// Smoothing out of the colours.
                     .blur(radius: 10)
                     /// The outline.
@@ -43,8 +43,8 @@ struct ColourWheel: View {
                     /// Outer shadow.
                     .shadow(color: Color.black.opacity(0.2), radius: 15)
                 
-                /// This is not required and actually makes the gradient less "accurate" but looks nicer. It's basically just a white radial gradient that blends the colours together nicer.
-                RadialGradient(gradient: Gradient(colors: [Color.white.opacity(0.8), .clear]), center: .center, startRadius: 0, endRadius: self.radius/2 - 10)
+                /// This *is* required for the saturation scale of the wheel. It actually makes the gradient less "accurate" but looks nicer. It's basically just a white radial gradient that blends the colours together nicer.
+                RadialGradient(gradient: Gradient(colors: [.white, .black]), center: .center, startRadius: 0, endRadius: self.radius/2 - 10)
                     .blendMode(.screen)
 
                 /// The little knob that shows selected colour.
@@ -54,7 +54,7 @@ struct ColourWheel: View {
                     .rotationEffect(.degrees(-Double(self.rgbColour.hsv.h)))
                 
             }
-            /// The gesture so we can detect touches on the wheel.
+            /// The gesture so we can detect taps and drags on the wheel.
             .gesture(
                 DragGesture(minimumDistance: 0, coordinateSpace: .global)
                     .onChanged { value in
@@ -82,8 +82,8 @@ struct ColourWheel: View {
     }
 }
 
-struct ColourWheel_Previews: PreviewProvider {
+struct NewColourWheel_Previews: PreviewProvider {
     static var previews: some View {
-        ColourWheel(radius: 350, rgbColour: .constant(RGB(r: 1, g: 1, b: 1)))
+        NewColourWheel(radius: 350, rgbColour: .constant(RGB(r: 1, g: 1, b: 1)))
     }
 }

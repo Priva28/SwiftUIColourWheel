@@ -12,6 +12,8 @@
 		3089538E248EEE460077156D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3089538D248EEE460077156D /* Assets.xcassets */; };
 		30895391248EEE460077156D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30895390248EEE460077156D /* Preview Assets.xcassets */; };
 		30895394248EEE460077156D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30895392248EEE460077156D /* LaunchScreen.storyboard */; };
+		30CCEC282491F03E005C48BE /* AngularGradientHueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCEC272491F03E005C48BE /* AngularGradientHueView.swift */; };
+		30CCEC2B2491FA51005C48BE /* NewColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCEC2A2491FA51005C48BE /* NewColourWheel.swift */; };
 		30D1468D248F568E002BE383 /* ColourStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D1468C248F568E002BE383 /* ColourStructs.swift */; };
 		30D1468F248F625F002BE383 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D1468E248F625F002BE383 /* FinalView.swift */; };
 		30D14691248F62D2002BE383 /* ColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D14690248F62D2002BE383 /* ColourWheel.swift */; };
@@ -28,6 +30,8 @@
 		30895393248EEE460077156D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30895395248EEE470077156D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3089539B248EF5200077156D /* Colour Wheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Colour Wheel.entitlements"; sourceTree = "<group>"; };
+		30CCEC272491F03E005C48BE /* AngularGradientHueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientHueView.swift; sourceTree = "<group>"; };
+		30CCEC2A2491FA51005C48BE /* NewColourWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewColourWheel.swift; sourceTree = "<group>"; };
 		30D1468C248F568E002BE383 /* ColourStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourStructs.swift; sourceTree = "<group>"; };
 		30D1468E248F625F002BE383 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 		30D14690248F62D2002BE383 /* ColourWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourWheel.swift; sourceTree = "<group>"; };
@@ -86,9 +90,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		30CCEC292491FA44005C48BE /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				30CCEC2A2491FA51005C48BE /* NewColourWheel.swift */,
+				30CCEC272491F03E005C48BE /* AngularGradientHueView.swift */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
 		30D14696248F8BC4002BE383 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				30CCEC292491FA44005C48BE /* Experimental */,
 				30D1468E248F625F002BE383 /* FinalView.swift */,
 				30D14690248F62D2002BE383 /* ColourWheel.swift */,
 				30D14692248F8972002BE383 /* CIHueSaturationValueGradientView.swift */,
@@ -178,8 +192,10 @@
 			files = (
 				30895388248EEE440077156D /* AppDelegate.swift in Sources */,
 				30D1468F248F625F002BE383 /* FinalView.swift in Sources */,
+				30CCEC2B2491FA51005C48BE /* NewColourWheel.swift in Sources */,
 				30D1468D248F568E002BE383 /* ColourStructs.swift in Sources */,
 				30D14695248F89EF002BE383 /* Helpers.swift in Sources */,
+				30CCEC282491F03E005C48BE /* AngularGradientHueView.swift in Sources */,
 				3089538A248EEE440077156D /* SceneDelegate.swift in Sources */,
 				30D14691248F62D2002BE383 /* ColourWheel.swift in Sources */,
 				30D14693248F8972002BE383 /* CIHueSaturationValueGradientView.swift in Sources */,
@@ -332,6 +348,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "priva28.colour-wheel";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "priva28.colour-wheel";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
