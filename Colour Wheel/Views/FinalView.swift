@@ -36,10 +36,10 @@ struct FinalView: View {
                 /// The outline.
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color.init(red: 0.8, green: 0.8, blue: 0.8), lineWidth: 5)
+                        .stroke(Color("Outline"), lineWidth: 5)
                 )
                 /// The outer shadow.
-                .shadow(color: Color.black.opacity(0.4), radius: 18)
+                .shadow(color: Color("ShadowOuter"), radius: 18)
                 .padding()
                 
         }

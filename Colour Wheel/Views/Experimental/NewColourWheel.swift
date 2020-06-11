@@ -31,9 +31,9 @@ struct NewColourWheel: View {
                     .overlay(
                         Circle()
                             .size(CGSize(width: self.radius, height: self.radius))
-                            .stroke(Color.init(red: 0.8, green: 0.8, blue: 0.8), lineWidth: 10)
+                            .stroke(Color("Outline"), lineWidth: 10)
                             /// Inner shadow.
-                            .shadow(color: Color.black.opacity(0.5), radius: 8)
+                            .shadow(color: Color("ShadowInner"), radius: 8)
                     )
                     /// Clip inner shadow.
                     .clipShape(
@@ -41,7 +41,7 @@ struct NewColourWheel: View {
                             .size(CGSize(width: self.radius, height: self.radius))
                     )
                     /// Outer shadow.
-                    .shadow(color: Color.black.opacity(0.2), radius: 15)
+                    .shadow(color: Color("ShadowOuter"), radius: 15)
                 
                 /// This *is* required for the saturation scale of the wheel. It actually makes the gradient less "accurate" but looks nicer. It's basically just a white radial gradient that blends the colours together nicer.
                 RadialGradient(gradient: Gradient(colors: [.white, .black]), center: .center, startRadius: 0, endRadius: self.radius/2 - 10)

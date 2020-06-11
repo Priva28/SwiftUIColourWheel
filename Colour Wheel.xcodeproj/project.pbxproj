@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30895388248EEE440077156D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30895387248EEE440077156D /* AppDelegate.swift */; };
-		3089538A248EEE440077156D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30895389248EEE440077156D /* SceneDelegate.swift */; };
-		3089538E248EEE460077156D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3089538D248EEE460077156D /* Assets.xcassets */; };
-		30895391248EEE460077156D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30895390248EEE460077156D /* Preview Assets.xcassets */; };
-		30895394248EEE460077156D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30895392248EEE460077156D /* LaunchScreen.storyboard */; };
-		30CCEC282491F03E005C48BE /* AngularGradientHueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCEC272491F03E005C48BE /* AngularGradientHueView.swift */; };
-		30CCEC2B2491FA51005C48BE /* NewColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCEC2A2491FA51005C48BE /* NewColourWheel.swift */; };
-		30D1468D248F568E002BE383 /* ColourStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D1468C248F568E002BE383 /* ColourStructs.swift */; };
-		30D1468F248F625F002BE383 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D1468E248F625F002BE383 /* FinalView.swift */; };
-		30D14691248F62D2002BE383 /* ColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D14690248F62D2002BE383 /* ColourWheel.swift */; };
-		30D14693248F8972002BE383 /* CIHueSaturationValueGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D14692248F8972002BE383 /* CIHueSaturationValueGradientView.swift */; };
-		30D14695248F89EF002BE383 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D14694248F89EF002BE383 /* Helpers.swift */; };
+		30862008249209A4000AF70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862007249209A4000AF70D /* AppDelegate.swift */; };
+		3086200A249209A4000AF70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862009249209A4000AF70D /* SceneDelegate.swift */; };
+		3086200E249209A5000AF70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3086200D249209A5000AF70D /* Assets.xcassets */; };
+		30862011249209A5000AF70D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30862010249209A5000AF70D /* Preview Assets.xcassets */; };
+		30862014249209A5000AF70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30862012249209A5000AF70D /* LaunchScreen.storyboard */; };
+		3086201E249209C9000AF70D /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3086201D249209C9000AF70D /* FinalView.swift */; };
+		30862021249209D0000AF70D /* ColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3086201F249209CF000AF70D /* ColourWheel.swift */; };
+		30862022249209D0000AF70D /* CIHueSaturationValueGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862020249209CF000AF70D /* CIHueSaturationValueGradientView.swift */; };
+		30862025249209D9000AF70D /* AngularGradientHueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862023249209D9000AF70D /* AngularGradientHueView.swift */; };
+		30862026249209D9000AF70D /* NewColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862024249209D9000AF70D /* NewColourWheel.swift */; };
+		3086202C24920A0C000AF70D /* ColourStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3086202A24920A0C000AF70D /* ColourStructs.swift */; };
+		3086202D24920A0C000AF70D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3086202B24920A0C000AF70D /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30895384248EEE440077156D /* Colour Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30895387248EEE440077156D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30895389248EEE440077156D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3089538D248EEE460077156D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30895390248EEE460077156D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		30895393248EEE460077156D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		30895395248EEE470077156D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3089539B248EF5200077156D /* Colour Wheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Colour Wheel.entitlements"; sourceTree = "<group>"; };
-		30CCEC272491F03E005C48BE /* AngularGradientHueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientHueView.swift; sourceTree = "<group>"; };
-		30CCEC2A2491FA51005C48BE /* NewColourWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewColourWheel.swift; sourceTree = "<group>"; };
-		30D1468C248F568E002BE383 /* ColourStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourStructs.swift; sourceTree = "<group>"; };
-		30D1468E248F625F002BE383 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
-		30D14690248F62D2002BE383 /* ColourWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourWheel.swift; sourceTree = "<group>"; };
-		30D14692248F8972002BE383 /* CIHueSaturationValueGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIHueSaturationValueGradientView.swift; sourceTree = "<group>"; };
-		30D14694248F89EF002BE383 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		30862004249209A4000AF70D /* Colour Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30862007249209A4000AF70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30862009249209A4000AF70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3086200D249209A5000AF70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30862010249209A5000AF70D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30862013249209A5000AF70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30862015249209A5000AF70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3086201D249209C9000AF70D /* FinalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		3086201F249209CF000AF70D /* ColourWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourWheel.swift; sourceTree = "<group>"; };
+		30862020249209CF000AF70D /* CIHueSaturationValueGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIHueSaturationValueGradientView.swift; sourceTree = "<group>"; };
+		30862023249209D9000AF70D /* AngularGradientHueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngularGradientHueView.swift; sourceTree = "<group>"; };
+		30862024249209D9000AF70D /* NewColourWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewColourWheel.swift; sourceTree = "<group>"; };
+		3086202A24920A0C000AF70D /* ColourStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourStructs.swift; sourceTree = "<group>"; };
+		3086202B24920A0C000AF70D /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		3086202F24920B00000AF70D /* Colour Wheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Colour Wheel.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30895381248EEE440077156D /* Frameworks */ = {
+		30862001249209A4000AF70D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,71 +50,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3089537B248EEE440077156D = {
+		30861FFB249209A4000AF70D = {
 			isa = PBXGroup;
 			children = (
-				30895386248EEE440077156D /* Colour Wheel */,
-				30895385248EEE440077156D /* Products */,
+				30862006249209A4000AF70D /* Colour Wheel */,
+				30862005249209A4000AF70D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30895385248EEE440077156D /* Products */ = {
+		30862005249209A4000AF70D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30895384248EEE440077156D /* Colour Wheel.app */,
+				30862004249209A4000AF70D /* Colour Wheel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30895386248EEE440077156D /* Colour Wheel */ = {
+		30862006249209A4000AF70D /* Colour Wheel */ = {
 			isa = PBXGroup;
 			children = (
-				3089539B248EF5200077156D /* Colour Wheel.entitlements */,
-				30D14696248F8BC4002BE383 /* Views */,
-				30D14697248F8BE0002BE383 /* Helpers */,
-				30895387248EEE440077156D /* AppDelegate.swift */,
-				30895389248EEE440077156D /* SceneDelegate.swift */,
-				3089538D248EEE460077156D /* Assets.xcassets */,
-				30895392248EEE460077156D /* LaunchScreen.storyboard */,
-				30895395248EEE470077156D /* Info.plist */,
-				3089538F248EEE460077156D /* Preview Content */,
+				3086202F24920B00000AF70D /* Colour Wheel.entitlements */,
+				3086202E24920A10000AF70D /* Helpers */,
+				30862028249209EC000AF70D /* Views */,
+				30862007249209A4000AF70D /* AppDelegate.swift */,
+				30862009249209A4000AF70D /* SceneDelegate.swift */,
+				3086200D249209A5000AF70D /* Assets.xcassets */,
+				30862012249209A5000AF70D /* LaunchScreen.storyboard */,
+				30862015249209A5000AF70D /* Info.plist */,
+				3086200F249209A5000AF70D /* Preview Content */,
 			);
 			path = "Colour Wheel";
 			sourceTree = "<group>";
 		};
-		3089538F248EEE460077156D /* Preview Content */ = {
+		3086200F249209A5000AF70D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				30895390248EEE460077156D /* Preview Assets.xcassets */,
+				30862010249209A5000AF70D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		30CCEC292491FA44005C48BE /* Experimental */ = {
+		30862028249209EC000AF70D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				30CCEC2A2491FA51005C48BE /* NewColourWheel.swift */,
-				30CCEC272491F03E005C48BE /* AngularGradientHueView.swift */,
-			);
-			path = Experimental;
-			sourceTree = "<group>";
-		};
-		30D14696248F8BC4002BE383 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				30CCEC292491FA44005C48BE /* Experimental */,
-				30D1468E248F625F002BE383 /* FinalView.swift */,
-				30D14690248F62D2002BE383 /* ColourWheel.swift */,
-				30D14692248F8972002BE383 /* CIHueSaturationValueGradientView.swift */,
+				30862029249209F3000AF70D /* Experimental */,
+				30862020249209CF000AF70D /* CIHueSaturationValueGradientView.swift */,
+				3086201F249209CF000AF70D /* ColourWheel.swift */,
+				3086201D249209C9000AF70D /* FinalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		30D14697248F8BE0002BE383 /* Helpers */ = {
+		30862029249209F3000AF70D /* Experimental */ = {
 			isa = PBXGroup;
 			children = (
-				30D1468C248F568E002BE383 /* ColourStructs.swift */,
-				30D14694248F89EF002BE383 /* Helpers.swift */,
+				30862024249209D9000AF70D /* NewColourWheel.swift */,
+				30862023249209D9000AF70D /* AngularGradientHueView.swift */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		3086202E24920A10000AF70D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3086202A24920A0C000AF70D /* ColourStructs.swift */,
+				3086202B24920A0C000AF70D /* Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -122,39 +122,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30895383248EEE440077156D /* Colour Wheel */ = {
+		30862003249209A4000AF70D /* Colour Wheel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30895398248EEE470077156D /* Build configuration list for PBXNativeTarget "Colour Wheel" */;
+			buildConfigurationList = 30862018249209A5000AF70D /* Build configuration list for PBXNativeTarget "Colour Wheel" */;
 			buildPhases = (
-				30895380248EEE440077156D /* Sources */,
-				30895381248EEE440077156D /* Frameworks */,
-				30895382248EEE440077156D /* Resources */,
+				30862000249209A4000AF70D /* Sources */,
+				30862001249209A4000AF70D /* Frameworks */,
+				30862002249209A4000AF70D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Colour Wheel";
-			productName = "color wheel";
-			productReference = 30895384248EEE440077156D /* Colour Wheel.app */;
+			productName = "Colour Wheel";
+			productReference = 30862004249209A4000AF70D /* Colour Wheel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3089537C248EEE440077156D /* Project object */ = {
+		30861FFC249209A4000AF70D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Christian Privitelli";
 				TargetAttributes = {
-					30895383248EEE440077156D = {
+					30862003249209A4000AF70D = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 3089537F248EEE440077156D /* Build configuration list for PBXProject "Colour Wheel" */;
+			buildConfigurationList = 30861FFF249209A4000AF70D /* Build configuration list for PBXProject "Colour Wheel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,53 +162,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 3089537B248EEE440077156D;
-			productRefGroup = 30895385248EEE440077156D /* Products */;
+			mainGroup = 30861FFB249209A4000AF70D;
+			productRefGroup = 30862005249209A4000AF70D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30895383248EEE440077156D /* Colour Wheel */,
+				30862003249209A4000AF70D /* Colour Wheel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30895382248EEE440077156D /* Resources */ = {
+		30862002249209A4000AF70D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30895394248EEE460077156D /* LaunchScreen.storyboard in Resources */,
-				30895391248EEE460077156D /* Preview Assets.xcassets in Resources */,
-				3089538E248EEE460077156D /* Assets.xcassets in Resources */,
+				30862014249209A5000AF70D /* LaunchScreen.storyboard in Resources */,
+				30862011249209A5000AF70D /* Preview Assets.xcassets in Resources */,
+				3086200E249209A5000AF70D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30895380248EEE440077156D /* Sources */ = {
+		30862000249209A4000AF70D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30895388248EEE440077156D /* AppDelegate.swift in Sources */,
-				30D1468F248F625F002BE383 /* FinalView.swift in Sources */,
-				30CCEC2B2491FA51005C48BE /* NewColourWheel.swift in Sources */,
-				30D1468D248F568E002BE383 /* ColourStructs.swift in Sources */,
-				30D14695248F89EF002BE383 /* Helpers.swift in Sources */,
-				30CCEC282491F03E005C48BE /* AngularGradientHueView.swift in Sources */,
-				3089538A248EEE440077156D /* SceneDelegate.swift in Sources */,
-				30D14691248F62D2002BE383 /* ColourWheel.swift in Sources */,
-				30D14693248F8972002BE383 /* CIHueSaturationValueGradientView.swift in Sources */,
+				30862008249209A4000AF70D /* AppDelegate.swift in Sources */,
+				3086202C24920A0C000AF70D /* ColourStructs.swift in Sources */,
+				30862025249209D9000AF70D /* AngularGradientHueView.swift in Sources */,
+				3086202D24920A0C000AF70D /* Helpers.swift in Sources */,
+				30862026249209D9000AF70D /* NewColourWheel.swift in Sources */,
+				3086200A249209A4000AF70D /* SceneDelegate.swift in Sources */,
+				30862021249209D0000AF70D /* ColourWheel.swift in Sources */,
+				30862022249209D0000AF70D /* CIHueSaturationValueGradientView.swift in Sources */,
+				3086201E249209C9000AF70D /* FinalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30895392248EEE460077156D /* LaunchScreen.storyboard */ = {
+		30862012249209A5000AF70D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30895393248EEE460077156D /* Base */,
+				30862013249209A5000AF70D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		30895396248EEE470077156D /* Debug */ = {
+		30862016249209A5000AF70D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,7 +276,7 @@
 			};
 			name = Debug;
 		};
-		30895397248EEE470077156D /* Release */ = {
+		30862017249209A5000AF70D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,17 +330,14 @@
 			};
 			name = Release;
 		};
-		30895399248EEE470077156D /* Debug */ = {
+		30862019249209A5000AF70D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Colour Wheel/Colour Wheel.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Colour Wheel/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 939BQQZ3GG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Colour Wheel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
@@ -348,29 +345,23 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "priva28.colour-wheel";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = priva28.ColourWheel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3089539A248EEE470077156D /* Release */ = {
+		3086201A249209A5000AF70D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Colour Wheel/Colour Wheel.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Colour Wheel/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 939BQQZ3GG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Colour Wheel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
@@ -378,12 +369,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "priva28.colour-wheel";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = priva28.ColourWheel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,25 +381,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3089537F248EEE440077156D /* Build configuration list for PBXProject "Colour Wheel" */ = {
+		30861FFF249209A4000AF70D /* Build configuration list for PBXProject "Colour Wheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30895396248EEE470077156D /* Debug */,
-				30895397248EEE470077156D /* Release */,
+				30862016249209A5000AF70D /* Debug */,
+				30862017249209A5000AF70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30895398248EEE470077156D /* Build configuration list for PBXNativeTarget "Colour Wheel" */ = {
+		30862018249209A5000AF70D /* Build configuration list for PBXNativeTarget "Colour Wheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30895399248EEE470077156D /* Debug */,
-				3089539A248EEE470077156D /* Release */,
+				30862019249209A5000AF70D /* Debug */,
+				3086201A249209A5000AF70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3089537C248EEE440077156D /* Project object */;
+	rootObject = 30861FFC249209A4000AF70D /* Project object */;
 }
