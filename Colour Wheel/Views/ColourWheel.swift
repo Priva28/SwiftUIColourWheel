@@ -17,14 +17,21 @@ struct ColourWheel: View {
     /// The RGB colour. Is a binding as it can change and the view will update when it does.
     @Binding var rgbColour: RGB
     
+    /// The brightness/value of the colour wheel
+    @Binding var brightness: CGFloat
+    
     var body: some View {
         
+        DispatchQueue.main.async {
+            self.rgbColour = HSV(h: self.rgbColour.hsv.h, s: self.rgbColour.hsv.s, v: self.brightness).rgb
+        }
+        
         /// Geometry reader so we can know more about the geometry around and within the view.
-        GeometryReader { geometry in
+        return GeometryReader { geometry in
             ZStack {
                 
                 /// The colour wheel. See the definition.
-                CIHueSaturationValueGradientView(radius: self.radius)
+                CIHueSaturationValueGradientView(radius: self.radius, brightness: self.$brightness)
                     /// Smoothing out of the colours.
                     .blur(radius: 10)
                     /// The outline.
@@ -43,10 +50,10 @@ struct ColourWheel: View {
                     /// Outer shadow.
                     .shadow(color: Color("ShadowOuter"), radius: 15)
                 
-                /// This is not required and actually makes the gradient less "accurate" but looks nicer. It's basically just a white radial gradient that blends the colours together nicer.
-                RadialGradient(gradient: Gradient(colors: [Color.white.opacity(0.8), .clear]), center: .center, startRadius: 0, endRadius: self.radius/2 - 10)
+                /// This is not required and actually makes the gradient less "accurate" but looks nicer. It's basically just a white radial gradient that blends the colours together nicer. We also slowly dissolve it as the brightness/value goes down.
+                RadialGradient(gradient: Gradient(colors: [Color.white.opacity(0.8*Double(self.brightness)), .clear]), center: .center, startRadius: 0, endRadius: self.radius/2 - 10)
                     .blendMode(.screen)
-
+                    
                 /// The little knob that shows selected colour.
                 Circle()
                     .frame(width: 10, height: 10)
@@ -73,7 +80,7 @@ struct ColourWheel: View {
                         let saturation = min(distance(center, value.location)/(self.radius/2), 1)
                         
                         /// Convert HSV to RGB and set the colour which will notify the views.
-                        self.rgbColour = HSV(h: hue, s: saturation, v: 1).rgb
+                        self.rgbColour = HSV(h: hue, s: saturation, v: self.brightness).rgb
                     }
             )
         }
@@ -84,6 +91,6 @@ struct ColourWheel: View {
 
 struct ColourWheel_Previews: PreviewProvider {
     static var previews: some View {
-        ColourWheel(radius: 350, rgbColour: .constant(RGB(r: 1, g: 1, b: 1)))
+        ColourWheel(radius: 350, rgbColour: .constant(RGB(r: 1, g: 1, b: 1)), brightness: .constant(0))
     }
 }

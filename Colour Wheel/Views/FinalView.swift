@@ -13,10 +13,11 @@ struct FinalView: View {
     
     /// Source of truth of the colour that will be presented as well as controlled with the colour wheel.
     @State var rgbColour = RGB(r: 0, g: 1, b: 1)
+    @State var brightness: CGFloat = 1
     
     var body: some View {
         VStack {
-            
+
             /// The text at the top.
             HStack {
                 Text("Pick a colour.")
@@ -25,23 +26,17 @@ struct FinalView: View {
                     .padding()
                 Spacer()
             }
+            
             /// The actual colour wheel.
-            ColourWheel(radius: 300, rgbColour: $rgbColour)
+            ColourWheel(radius: 300, rgbColour: $rgbColour, brightness: $brightness)
                 .padding()
             
-            /// The view that shows the selected colour.
-            RoundedRectangle(cornerRadius: 10)
-                .foregroundColor(Color.init(red: Double(rgbColour.r), green: Double(rgbColour.g), blue: Double(rgbColour.b)))
-                .frame(width: 300, height: 50)
-                /// The outline.
-                .overlay(
-                    RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color("Outline"), lineWidth: 5)
-                )
-                /// The outer shadow.
-                .shadow(color: Color("ShadowOuter"), radius: 18)
+            /// The slider shows the selected colour and allows control of the brightness/value. Cannot have value at 0 otherwise we lose the RGB value.
+            CustomSlider(rgbColour: $rgbColour, value: $brightness, range: 0.001...1)
                 .padding()
-                
+            
+            /// If you don't want a brightness/value slider then remove it and use this instead to show the current colour.
+            //ColourShowView(rgbColour: $rgbColour)
         }
     }
 }

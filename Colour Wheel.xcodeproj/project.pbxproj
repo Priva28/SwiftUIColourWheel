@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		305B7E1924934E4900D3F588 /* ColourShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305B7E1824934E4900D3F588 /* ColourShowView.swift */; };
 		30862008249209A4000AF70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862007249209A4000AF70D /* AppDelegate.swift */; };
 		3086200A249209A4000AF70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862009249209A4000AF70D /* SceneDelegate.swift */; };
 		3086200E249209A5000AF70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3086200D249209A5000AF70D /* Assets.xcassets */; };
@@ -19,9 +20,11 @@
 		30862026249209D9000AF70D /* NewColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862024249209D9000AF70D /* NewColourWheel.swift */; };
 		3086202C24920A0C000AF70D /* ColourStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3086202A24920A0C000AF70D /* ColourStructs.swift */; };
 		3086202D24920A0C000AF70D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3086202B24920A0C000AF70D /* Helpers.swift */; };
+		308620312492E531000AF70D /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308620302492E531000AF70D /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		305B7E1824934E4900D3F588 /* ColourShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourShowView.swift; sourceTree = "<group>"; };
 		30862004249209A4000AF70D /* Colour Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30862007249209A4000AF70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30862009249209A4000AF70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		3086202A24920A0C000AF70D /* ColourStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourStructs.swift; sourceTree = "<group>"; };
 		3086202B24920A0C000AF70D /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		3086202F24920B00000AF70D /* Colour Wheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Colour Wheel.entitlements"; sourceTree = "<group>"; };
+		308620302492E531000AF70D /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +97,12 @@
 		30862028249209EC000AF70D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				30862029249209F3000AF70D /* Experimental */,
+				308620302492E531000AF70D /* CustomSlider.swift */,
 				30862020249209CF000AF70D /* CIHueSaturationValueGradientView.swift */,
 				3086201F249209CF000AF70D /* ColourWheel.swift */,
 				3086201D249209C9000AF70D /* FinalView.swift */,
+				305B7E1824934E4900D3F588 /* ColourShowView.swift */,
+				30862029249209F3000AF70D /* Experimental */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,9 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				30862008249209A4000AF70D /* AppDelegate.swift in Sources */,
+				308620312492E531000AF70D /* CustomSlider.swift in Sources */,
 				3086202C24920A0C000AF70D /* ColourStructs.swift in Sources */,
 				30862025249209D9000AF70D /* AngularGradientHueView.swift in Sources */,
 				3086202D24920A0C000AF70D /* Helpers.swift in Sources */,
+				305B7E1924934E4900D3F588 /* ColourShowView.swift in Sources */,
 				30862026249209D9000AF70D /* NewColourWheel.swift in Sources */,
 				3086200A249209A4000AF70D /* SceneDelegate.swift in Sources */,
 				30862021249209D0000AF70D /* ColourWheel.swift in Sources */,
